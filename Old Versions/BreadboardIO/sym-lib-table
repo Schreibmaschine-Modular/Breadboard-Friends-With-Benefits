@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "BreadboardIO-cache") (type "Legacy") (uri "C:/Users/Lavendel/Downloads/Temp Git Backup/BreadboardIO/BreadboardIO-cache.lib") (options "") (descr "Legacy project cache library"))
+)

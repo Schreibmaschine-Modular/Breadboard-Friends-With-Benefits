@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1bde6d0b-b58d-4d59-a673-9c2dc00d12c9")
+	(paper "A4")
+	(title_block
+		(title "Bread Board Friends With Benefits")
+		(company "Schreibmaschine Modular")
+	)
+	(lib_symbols)
+)
