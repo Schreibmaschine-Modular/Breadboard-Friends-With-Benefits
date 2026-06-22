@@ -1,0 +1,563 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L !Schreibmaschine_Library:Mono-Jack J?
+U 1 1 61508488
+P 1650 950
+F 0 "J?" V 1300 900 50  0000 L CNN
+F 1 "Mono-Jack" V 1400 750 50  0000 L CNN
+F 2 "!Schreibmaschine_Footprints:Thonkiconn" H 1550 750 50  0001 C CNN
+F 3 "" H 1550 750 50  0001 C CNN
+	1    1650 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 6150AD49
+P 7350 1400
+F 0 "RV?" H 7281 1446 50  0000 R CNN
+F 1 "R_POT" H 7281 1355 50  0000 R CNN
+F 2 "" H 7350 1400 50  0001 C CNN
+F 3 "~" H 7350 1400 50  0001 C CNN
+	1    7350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual SW?
+U 1 1 6150C4D9
+P 8050 4500
+F 0 "SW?" H 8050 4785 50  0000 C CNN
+F 1 "SW_Push_Dual" H 8050 4694 50  0000 C CNN
+F 2 "" H 8050 4700 50  0001 C CNN
+F 3 "~" H 8050 4700 50  0001 C CNN
+	1    8050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6150DC11
+P 9200 4600
+F 0 "SW?" H 9200 4885 50  0000 C CNN
+F 1 "SW_Push" H 9200 4794 50  0000 C CNN
+F 2 "" H 9200 4800 50  0001 C CNN
+F 3 "~" H 9200 4800 50  0001 C CNN
+	1    9200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 6150E0AA
+P 1750 5000
+F 0 "SW?" H 1750 4675 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 1750 4766 50  0000 C CNN
+F 2 "" H 1750 5000 50  0001 C CNN
+F 3 "~" H 1750 5000 50  0001 C CNN
+	1    1750 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 2 1 6150E9D6
+P 2500 5000
+F 0 "SW?" H 2500 4675 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2500 4766 50  0000 C CNN
+F 2 "" H 2500 5000 50  0001 C CNN
+F 3 "~" H 2500 5000 50  0001 C CNN
+	2    2500 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L !Schreibmaschine_Library:Mono-Jack J?
+U 1 1 61511409
+P 2100 950
+F 0 "J?" V 1750 900 50  0000 L CNN
+F 1 "Mono-Jack" V 1850 750 50  0000 L CNN
+F 2 "!Schreibmaschine_Footprints:Thonkiconn" H 2000 750 50  0001 C CNN
+F 3 "" H 2000 750 50  0001 C CNN
+	1    2100 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L !Schreibmaschine_Library:Mono-Jack J?
+U 1 1 61511A0F
+P 2550 950
+F 0 "J?" V 2200 900 50  0000 L CNN
+F 1 "Mono-Jack" V 2300 750 50  0000 L CNN
+F 2 "!Schreibmaschine_Footprints:Thonkiconn" H 2450 750 50  0001 C CNN
+F 3 "" H 2450 750 50  0001 C CNN
+	1    2550 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L !Schreibmaschine_Library:Mono-Jack J?
+U 1 1 6151215A
+P 3000 950
+F 0 "J?" V 2650 900 50  0000 L CNN
+F 1 "Mono-Jack" V 2750 750 50  0000 L CNN
+F 2 "!Schreibmaschine_Footprints:Thonkiconn" H 2900 750 50  0001 C CNN
+F 3 "" H 2900 750 50  0001 C CNN
+	1    3000 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 615130B3
+P 950 1400
+F 0 "J?" H 1000 1817 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1000 1726 50  0000 C CNN
+F 2 "" H 950 1400 50  0001 C CNN
+F 3 "~" H 950 1400 50  0001 C CNN
+	1    950  1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 615168DA
+P 3500 1400
+F 0 "J?" H 3550 1817 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 3550 1726 50  0000 C CNN
+F 2 "" H 3500 1400 50  0001 C CNN
+F 3 "~" H 3500 1400 50  0001 C CNN
+	1    3500 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1250 1750 3    50   Input ~ 0
+GNDJ
+Wire Wire Line
+	1250 1200 1250 1300
+Connection ~ 1250 1300
+Wire Wire Line
+	1250 1300 1250 1400
+Connection ~ 1250 1400
+Wire Wire Line
+	1250 1400 1250 1500
+Connection ~ 1250 1500
+Wire Wire Line
+	1250 1500 1250 1600
+Wire Wire Line
+	1250 1750 1250 1600
+Connection ~ 1250 1600
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61518EA4
+P 2200 1750
+F 0 "J?" V 2273 1680 50  0000 C CNN
+F 1 "Conn_01x08_Female" V 2364 1680 50  0000 C CNN
+F 2 "" H 2200 1750 50  0001 C CNN
+F 3 "~" H 2200 1750 50  0001 C CNN
+	1    2200 1750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1250 1300 1500 1300
+Wire Wire Line
+	2850 1300 2850 1200
+Wire Wire Line
+	2400 1200 2400 1300
+Connection ~ 2400 1300
+Wire Wire Line
+	2400 1300 2850 1300
+Wire Wire Line
+	1500 1200 1500 1300
+Connection ~ 1500 1300
+Wire Wire Line
+	1500 1300 1950 1300
+Wire Wire Line
+	1950 1200 1950 1300
+Connection ~ 1950 1300
+Wire Wire Line
+	1950 1300 2400 1300
+Wire Wire Line
+	2150 1200 2150 1350
+Wire Wire Line
+	2150 1350 2200 1350
+Wire Wire Line
+	2200 1350 2200 1550
+Wire Wire Line
+	2050 1200 2050 1400
+Wire Wire Line
+	2050 1400 2100 1400
+Wire Wire Line
+	2100 1400 2100 1550
+Wire Wire Line
+	1700 1200 1700 1450
+Wire Wire Line
+	1700 1450 2000 1450
+Wire Wire Line
+	2000 1450 2000 1550
+Wire Wire Line
+	1600 1200 1600 1500
+Wire Wire Line
+	1600 1500 1900 1500
+Wire Wire Line
+	1900 1500 1900 1550
+Wire Wire Line
+	2500 1200 2500 1350
+Wire Wire Line
+	2500 1350 2300 1350
+Wire Wire Line
+	2300 1350 2300 1550
+Wire Wire Line
+	2600 1200 2600 1400
+Wire Wire Line
+	2600 1400 2400 1400
+Wire Wire Line
+	2400 1400 2400 1550
+Wire Wire Line
+	2950 1200 2950 1450
+Wire Wire Line
+	2950 1450 2500 1450
+Wire Wire Line
+	2500 1450 2500 1550
+Wire Wire Line
+	3050 1200 3050 1500
+Wire Wire Line
+	3050 1500 2600 1500
+Wire Wire Line
+	2600 1500 2600 1550
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 615359A2
+P 950 3050
+F 0 "J?" H 1000 3467 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1000 3376 50  0000 C CNN
+F 2 "" H 950 3050 50  0001 C CNN
+F 3 "~" H 950 3050 50  0001 C CNN
+	1    950  3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 61538706
+P 1650 3000
+F 0 "SW?" H 1650 2675 50  0000 C CNN
+F 1 "SW_SPDT" H 1650 2766 50  0000 C CNN
+F 2 "" H 1650 3000 50  0001 C CNN
+F 3 "~" H 1650 3000 50  0001 C CNN
+	1    1650 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 6153A743
+P 1150 3600
+F 0 "J?" H 1258 3881 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1250 3450 50  0000 C CNN
+F 2 "" H 1150 3600 50  0001 C CNN
+F 3 "~" H 1150 3600 50  0001 C CNN
+	1    1150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2900 1400 2900
+Wire Wire Line
+	1400 2900 1400 3500
+Wire Wire Line
+	1400 3500 1350 3500
+Wire Wire Line
+	1450 3100 1450 3700
+Wire Wire Line
+	1450 3700 1350 3700
+Wire Wire Line
+	1350 3600 1850 3600
+Wire Wire Line
+	1850 3600 1850 3000
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 61545E4A
+P 2400 3000
+F 0 "SW?" H 2400 2675 50  0000 C CNN
+F 1 "SW_SPDT" H 2400 2766 50  0000 C CNN
+F 2 "" H 2400 3000 50  0001 C CNN
+F 3 "~" H 2400 3000 50  0001 C CNN
+	1    2400 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 61545E50
+P 1900 3600
+F 0 "J?" H 2008 3881 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2000 3450 50  0000 C CNN
+F 2 "" H 1900 3600 50  0001 C CNN
+F 3 "~" H 1900 3600 50  0001 C CNN
+	1    1900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2900 2150 2900
+Wire Wire Line
+	2150 2900 2150 3500
+Wire Wire Line
+	2150 3500 2100 3500
+Wire Wire Line
+	2200 3100 2200 3700
+Wire Wire Line
+	2200 3700 2100 3700
+Wire Wire Line
+	2100 3600 2600 3600
+Wire Wire Line
+	2600 3600 2600 3000
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 61548544
+P 3150 3000
+F 0 "SW?" H 3150 2675 50  0000 C CNN
+F 1 "SW_SPDT" H 3150 2766 50  0000 C CNN
+F 2 "" H 3150 3000 50  0001 C CNN
+F 3 "~" H 3150 3000 50  0001 C CNN
+	1    3150 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 6154854A
+P 2650 3600
+F 0 "J?" H 2758 3881 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2750 3450 50  0000 C CNN
+F 2 "" H 2650 3600 50  0001 C CNN
+F 3 "~" H 2650 3600 50  0001 C CNN
+	1    2650 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2900 2900 2900
+Wire Wire Line
+	2900 2900 2900 3500
+Wire Wire Line
+	2900 3500 2850 3500
+Wire Wire Line
+	2950 3100 2950 3700
+Wire Wire Line
+	2950 3700 2850 3700
+Wire Wire Line
+	2850 3600 3350 3600
+Wire Wire Line
+	3350 3600 3350 3000
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 6154A2C3
+P 3900 3000
+F 0 "SW?" H 3900 2675 50  0000 C CNN
+F 1 "SW_SPDT" H 3900 2766 50  0000 C CNN
+F 2 "" H 3900 3000 50  0001 C CNN
+F 3 "~" H 3900 3000 50  0001 C CNN
+	1    3900 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 6154A2C9
+P 3400 3600
+F 0 "J?" H 3508 3881 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3500 3450 50  0000 C CNN
+F 2 "" H 3400 3600 50  0001 C CNN
+F 3 "~" H 3400 3600 50  0001 C CNN
+	1    3400 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2900 3650 2900
+Wire Wire Line
+	3650 2900 3650 3500
+Wire Wire Line
+	3650 3500 3600 3500
+Wire Wire Line
+	3700 3100 3700 3700
+Wire Wire Line
+	3700 3700 3600 3700
+Wire Wire Line
+	3600 3600 4100 3600
+Wire Wire Line
+	4100 3600 4100 3000
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 6154EA7E
+P 4350 3050
+F 0 "J?" H 4400 3467 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 4400 3376 50  0000 C CNN
+F 2 "" H 4350 3050 50  0001 C CNN
+F 3 "~" H 4350 3050 50  0001 C CNN
+	1    4350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 6155EEF9
+P 2950 5000
+F 0 "SW?" H 2950 4675 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2950 4766 50  0000 C CNN
+F 2 "" H 2950 5000 50  0001 C CNN
+F 3 "~" H 2950 5000 50  0001 C CNN
+	1    2950 5000
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 2 1 6155EEFF
+P 3700 5000
+F 0 "SW?" H 3700 4675 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 3700 4766 50  0000 C CNN
+F 2 "" H 3700 5000 50  0001 C CNN
+F 3 "~" H 3700 5000 50  0001 C CNN
+	2    3700 5000
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 61562BAB
+P 1250 5600
+F 0 "J?" H 1358 5881 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1350 5450 50  0000 C CNN
+F 2 "" H 1250 5600 50  0001 C CNN
+F 3 "~" H 1250 5600 50  0001 C CNN
+	1    1250 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 5500 1500 5500
+Wire Wire Line
+	1500 5500 1500 4900
+Wire Wire Line
+	1500 4900 1550 4900
+Wire Wire Line
+	1550 5100 1550 5700
+Wire Wire Line
+	1550 5700 1450 5700
+Wire Wire Line
+	1950 5000 1950 5600
+Wire Wire Line
+	1950 5600 1450 5600
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 6156A93A
+P 2000 5600
+F 0 "J?" H 2108 5881 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2100 5450 50  0000 C CNN
+F 2 "" H 2000 5600 50  0001 C CNN
+F 3 "~" H 2000 5600 50  0001 C CNN
+	1    2000 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5500 2250 5500
+Wire Wire Line
+	2250 5500 2250 4900
+Wire Wire Line
+	2250 4900 2300 4900
+Wire Wire Line
+	2300 5100 2300 5700
+Wire Wire Line
+	2300 5700 2200 5700
+Wire Wire Line
+	2700 5000 2700 5600
+Wire Wire Line
+	2700 5600 2200 5600
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 6156D1D5
+P 4200 5600
+F 0 "J?" H 4308 5881 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 4300 5450 50  0000 C CNN
+F 2 "" H 4200 5600 50  0001 C CNN
+F 3 "~" H 4200 5600 50  0001 C CNN
+	1    4200 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5500 3950 5500
+Wire Wire Line
+	3950 5500 3950 4900
+Wire Wire Line
+	3950 4900 3900 4900
+Wire Wire Line
+	3900 5100 3900 5700
+Wire Wire Line
+	3900 5700 4000 5700
+Wire Wire Line
+	3500 5000 3500 5600
+Wire Wire Line
+	3500 5600 4000 5600
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 6156FE16
+P 3450 5600
+F 0 "J?" H 3558 5881 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3550 5450 50  0000 C CNN
+F 2 "" H 3450 5600 50  0001 C CNN
+F 3 "~" H 3450 5600 50  0001 C CNN
+	1    3450 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 5500 3200 5500
+Wire Wire Line
+	3200 5500 3200 4900
+Wire Wire Line
+	3200 4900 3150 4900
+Wire Wire Line
+	3150 5100 3150 5700
+Wire Wire Line
+	3150 5700 3250 5700
+Wire Wire Line
+	2750 5000 2750 5600
+Wire Wire Line
+	2750 5600 3250 5600
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 6157BFEE
+P 1000 5150
+F 0 "J?" H 1050 5567 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1050 5476 50  0000 C CNN
+F 2 "" H 1000 5150 50  0001 C CNN
+F 3 "~" H 1000 5150 50  0001 C CNN
+	1    1000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 6157F5F5
+P 4350 5150
+F 0 "J?" H 4400 5567 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 4400 5476 50  0000 C CNN
+F 2 "" H 4350 5150 50  0001 C CNN
+F 3 "~" H 4350 5150 50  0001 C CNN
+	1    4350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 6158220B
+P 6150 1400
+F 0 "J?" H 6200 1817 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 6200 1726 50  0000 C CNN
+F 2 "" H 6150 1400 50  0001 C CNN
+F 3 "~" H 6150 1400 50  0001 C CNN
+	1    6150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 615847FC
+P 8350 1400
+F 0 "J?" H 8400 1817 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 8400 1726 50  0000 C CNN
+F 2 "" H 8350 1400 50  0001 C CNN
+F 3 "~" H 8350 1400 50  0001 C CNN
+	1    8350 1400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

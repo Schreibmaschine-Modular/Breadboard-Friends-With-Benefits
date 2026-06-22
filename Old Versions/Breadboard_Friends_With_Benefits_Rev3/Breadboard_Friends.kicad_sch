@@ -1,0 +1,360 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "dba01d8f-01b4-4e92-844e-b8275373f066")
+	(paper "A4")
+	(title_block
+		(title "Bread Board Friends With Benefits")
+		(rev "1")
+		(company "Schreibmaschine Modular")
+	)
+	(lib_symbols)
+	(sheet
+		(at 19.05 50.8)
+		(size 22.225 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "116cac34-f92c-4283-8e3c-c2aaa1801bd5")
+		(property "Sheetname" "Logic_Kit"
+			(at 19.05 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BBF_Logic_Kit.kicad_sch"
+			(at 19.05 73.6096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Friends"
+				(path "/dba01d8f-01b4-4e92-844e-b8275373f066"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 19.05)
+		(size 21.59 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b985ad3-fde2-449c-92a3-6370058e0ca6")
+		(property "Sheetname" "Components_Kit"
+			(at 50.8 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BBF_Components_Kit.kicad_sch"
+			(at 50.8 41.8596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Friends"
+				(path "/dba01d8f-01b4-4e92-844e-b8275373f066"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 19.05)
+		(size 22.225 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3347e180-bb77-4238-ad15-eb9c7581654b")
+		(property "Sheetname" "Pedal_Kit"
+			(at 114.3 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BBF_Pedal_Kit.kicad_sch"
+			(at 114.3 41.8596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Friends"
+				(path "/dba01d8f-01b4-4e92-844e-b8275373f066"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 82.55)
+		(size 22.225 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56f30204-891b-4a46-b4b3-a090d067cb38")
+		(property "Sheetname" "Mutable_Kit"
+			(at 19.05 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BBF_Mutable_Kit.kicad_sch"
+			(at 19.05 105.3596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Friends"
+				(path "/dba01d8f-01b4-4e92-844e-b8275373f066"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 50.8)
+		(size 22.225 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "639193aa-bbd7-4a26-863d-936658243821")
+		(property "Sheetname" "Test_Kit"
+			(at 114.3 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BBF_Test_Kit.kicad_sch"
+			(at 114.3 73.6096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Friends"
+				(path "/dba01d8f-01b4-4e92-844e-b8275373f066"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 50.8)
+		(size 22.225 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "849e7511-08d1-4efb-ae46-6b89dc6e1ad6")
+		(property "Sheetname" "Digital_Kit"
+			(at 50.8 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BBF_Digital_Kit.kicad_sch"
+			(at 50.8 73.6096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Friends"
+				(path "/dba01d8f-01b4-4e92-844e-b8275373f066"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 50.8)
+		(size 22.225 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a20af51-0b74-46bd-9c35-abd6006c9de1")
+		(property "Sheetname" "Schreibmaschine_Kit"
+			(at 82.55 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BBF_Schreibmaschine_Kit.kicad_sch"
+			(at 82.55 73.6096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Friends"
+				(path "/dba01d8f-01b4-4e92-844e-b8275373f066"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 19.05)
+		(size 22.225 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c52cbb52-fa3b-4693-ab82-a3ef13186760")
+		(property "Sheetname" "Basic_Kit"
+			(at 19.05 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BBF_Basic_Kit.kicad_sch"
+			(at 19.05 41.8596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Friends"
+				(path "/dba01d8f-01b4-4e92-844e-b8275373f066"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 19.05)
+		(size 20.955 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf9e6aa2-0c98-4389-8856-749059efac65")
+		(property "Sheetname" "Advanced_Kit"
+			(at 82.55 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BBF_Advanced_Kit.kicad_sch"
+			(at 82.55 41.8596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Friends"
+				(path "/dba01d8f-01b4-4e92-844e-b8275373f066"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
